@@ -1,0 +1,340 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: verdana;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../allgamesbg.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+#main{
+	width:100%;
+	height:100vh;
+	background-size:cover;
+}
+nav{
+	width:100%;
+	height:90px;
+	background-color:#0C090A;
+}
+nav ul{
+	float:right;
+	list-style-type: none;
+	margin-top:40px;
+	margin-right:25px;
+}
+nav ul li{
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration:none;
+	color:white;
+	padding:5px 30px;
+	border:1px solid transparent;
+	transition:0.5s ease;
+	letter-spacing:2px;
+}
+nav ul li a:hover{
+	background-color:white;
+	color:black;
+}
+ul li.active a{
+	background-color:white;
+	color:black;
+}
+.logo img{
+	float: left;
+	width: 170px;
+	margin-top:-5px;
+	margin-left:30px;
+}
+.event{
+	color:white;
+	text-align:center;
+	margin-top:50px;
+	font-size:30px;
+	letter-spacing:10px;
+	text-decoration:underline;
+}
+.logo1{
+	float:left;
+}
+.logo2{
+	position:absolute;
+	margin-left:430px;
+}
+.logo3{
+	float:right;
+}
+.logo4{
+	float:left;
+}
+.logo5{
+	position:absolute;
+	margin-left:430px;
+	margin-top:265px;
+}
+.logo6{
+	float:right;
+}
+.logo7{
+	position:absolute;
+	margin-left:430px;
+	margin-top:540px;
+}
+
+
+
+
+.button1{
+	position:absolute;
+	top:65%;
+	left:18%;
+	transform: translate(-50%,-50%);
+}
+.btn1{
+	position:absolute;
+	top:90%;
+	left:200%;
+	transform: translate(-50%,-50%);
+	color:white;
+	border:1px solid white;
+	padding:10px 30px;
+	text-decoration:none;
+	font-family:sans-serif;
+	letter-spacing:4px;
+	transition:0.5s ease;
+	font-weight:bold;
+}
+.button1 a:hover{
+	border:1px solid #DE8D00;
+	background-color:#DE8D00;
+	color:black;
+}
+
+
+
+.button2{
+	position:absolute;
+	top:65%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.btn2{
+	position:absolute;
+	top:90%;
+	left:200%;
+	transform: translate(-50%,-50%);
+	color:white;
+	border:1px solid white;
+	padding:10px 30px;
+	text-decoration:none;
+	font-family:sans-serif;
+	letter-spacing:4px;
+	transition:0.5s ease;
+	font-weight:bold;
+}
+.button2 a:hover{
+	border:1px solid white;
+	background-color:white;
+	color:black;
+}
+
+
+
+
+.button3{
+	position:absolute;
+	top:65%;
+	left:83%;
+	transform: translate(-50%,-50%);
+}
+.btn3{
+	position:absolute;
+	top:90%;
+	left:200%;
+	transform: translate(-50%,-50%);
+	color:white;
+	border:1px solid white;
+	padding:10px 30px;
+	text-decoration:none;
+	font-family:sans-serif;
+	letter-spacing:4px;
+	transition:0.5s ease;
+	font-weight:bold;
+}
+.button3 a:hover{
+	border:1px solid #ee7fc3;
+	background-color: #ee7fc3;
+	color:black;
+}
+
+
+
+
+.button4{
+	position:absolute;
+	top:110%;
+	left:18%;
+	transform: translate(-50%,-50%);
+}
+.btn4{
+	position:absolute;
+	top:90%;
+	left:200%;
+	transform: translate(-50%,-50%);
+	color:white;
+	border:1px solid white;
+	padding:10px 30px;
+	text-decoration:none;
+	font-family:sans-serif;
+	letter-spacing:4px;
+	transition:0.5s ease;
+	font-weight:bold;
+}
+.button4 a:hover{
+	border:1px solid #aa2c13;
+	background-color: #aa2c13;
+	color: black;
+}
+
+
+
+.button5{
+	position:absolute;
+	top:110%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.btn5{
+	position:absolute;
+	top:90%;
+	left:200%;
+	transform: translate(-50%,-50%);
+	color:white;
+	border:1px solid white;
+	padding:10px 30px;
+	text-decoration:none;
+	font-family:sans-serif;
+	letter-spacing:4px;
+	transition:0.5s ease;
+	font-weight:bold;
+}
+.button5 a:hover{
+	border:1px solid #576e0f;
+	background-color: #576e0f;
+	color: black;
+}
+
+
+
+
+.button6{
+	position:absolute;
+	top:110%;
+	left:83%;
+	transform: translate(-50%,-50%);
+}
+.btn6{
+	position:absolute;
+	top:90%;
+	left:200%;
+	transform: translate(-50%,-50%);
+	color:white;
+	border:1px solid white;
+	padding:10px 30px;
+	text-decoration:none;
+	font-family:sans-serif;
+	letter-spacing:4px;
+	transition:0.5s ease;
+	font-weight:bold;
+}
+.button6 a:hover{
+	border:1px solid #8c5e44;
+	background-color: #8c5e44;
+	color: black;
+}
+
+
+
+
+.button7{
+	position:absolute;
+	top:155%;
+	left:50%;
+	transform: translate(-50%,-50%);
+}
+.btn7{
+	position:absolute;
+	top:90%;
+	left:200%;
+	transform: translate(-50%,-50%);
+	color:white;
+	border:1px solid white;
+	padding:10px 30px;
+	text-decoration:none;
+	font-family:sans-serif;
+	letter-spacing:4px;
+	transition:0.5s ease;
+	font-weight:bold;
+}
+.button7 a:hover{
+	border:1px solid #4e5354;
+	background-color: #4e5354;
+	color: black;
+}
+
+
+
+
+.djnight{
+	position:absolute;
+	margin-top:870px;
+	height:100vh;
+	width:100%;
+	text-align:center;
+	color:white;
+	background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.5)), url(../dj10.jpg);
+	background-size:1366px 768px;
+}
+.djnight h2{
+	margin-top:40px;
+	margin-left:675px;
+	font-family:sans-serif;
+	font-size:1px;
+	letter-spacing:15px;
+}
+.djnight h6{
+	margin-top:125px;
+	margin-left:675px;
+	font-family:sans-serif;
+	letter-spacing:15px;
+}
+.djnight img{
+	position:absolute;
+	float:center;
+	margin-left:100px;
+	margin-top:-75px;
+}
+.djnight a{
+	position:absolute;
+	top:85%;
+	left:74%;
+	transform: translate(-50%,-50%);
+	color:white;
+	border:1px solid white;
+	padding:10px 30px;
+	text-decoration:none;
+	font-family:sans-serif;
+	letter-spacing:4px;
+	transition:0.5s ease;
+	font-weight:bold;
+}
+.djnight a:hover{
+	border:1px solid #0080FF;
+	background-color:#0080FF;
+	color:white;
+	font-weight:bold;
+}
+
